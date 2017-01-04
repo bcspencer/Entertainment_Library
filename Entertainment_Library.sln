@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07563624-5148-42C5-AC6E-721C8AC0830F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2C3F6C9-DAEB-4317-9E66-8F06D452CC13}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Entertainment_Library", "src\Entertainment_Library\Entertainment_Library.xproj", "{C9D5EC33-5ADB-4F23-9835-03448CFA0A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D5EC33-5ADB-4F23-9835-03448CFA0A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D5EC33-5ADB-4F23-9835-03448CFA0A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D5EC33-5ADB-4F23-9835-03448CFA0A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D5EC33-5ADB-4F23-9835-03448CFA0A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9D5EC33-5ADB-4F23-9835-03448CFA0A94} = {07563624-5148-42C5-AC6E-721C8AC0830F}
+	EndGlobalSection
+EndGlobal
